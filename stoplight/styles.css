@@ -1,0 +1,33 @@
+#stoplight {
+  width: 200px;
+  height: 450px;
+  border: 5px;
+  background-color: grey;
+  border-color: black;
+}
+
+.light {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+#lit {
+  opacity: 1;
+}
+
+.red {
+  background-color: red;
+  margin: auto;
+}
+
+.yellow {
+  background-color: yellow;
+  margin: auto;
+}
+
+.green {
+  background-color: green;
+  margin: auto;
+}
