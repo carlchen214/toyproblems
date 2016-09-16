@@ -1,3 +1,4 @@
+
 var deck = [];
 
 for (var i = 1; i <= 52; i++) {
@@ -32,3 +33,5 @@ const shuffleDeckBack = (deck) => {
 }
 
 console.log(shuffleDeckBack(deck));
+
+// for visualization, see https://bost.ocks.org/mike/shuffle/
