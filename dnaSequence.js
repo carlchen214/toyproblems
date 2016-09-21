@@ -10,14 +10,14 @@ var findRepeatedDnaSequences = function(s) {
     
     for (var i = 0; i < length - 9; i++) {
         var str = s.substring(i, i + 10); 
-        if (storage[str] === undefined) {
-            storage[str] = 1;
-        } else {
+        if (storage[str] === 1) {
             results.push(str); 
             storage[str]++;
+        } 
+        if (storage[str] === undefined) {
+            storage[str] = 1;
         }
     }
-    
     return results;
     
 };
